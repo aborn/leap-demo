@@ -9,7 +9,7 @@ import org.popkit.core.annotation.LeapRequest;
  */
 @LeapRequest
 public class ParamReq {
-    @LeapRequest.Param
+    @LeapRequest.Param(name = "id")
     private Integer id;
 
     @LeapRequest.Param
